@@ -1,0 +1,13 @@
+C:\Users\Stephen Barr (Work)\source\repos\07312020_Task List\bin\Debug\netcoreapp3.1\07312020_Task List.exe
+C:\Users\Stephen Barr (Work)\source\repos\07312020_Task List\bin\Debug\netcoreapp3.1\07312020_Task List.deps.json
+C:\Users\Stephen Barr (Work)\source\repos\07312020_Task List\bin\Debug\netcoreapp3.1\07312020_Task List.runtimeconfig.json
+C:\Users\Stephen Barr (Work)\source\repos\07312020_Task List\bin\Debug\netcoreapp3.1\07312020_Task List.runtimeconfig.dev.json
+C:\Users\Stephen Barr (Work)\source\repos\07312020_Task List\bin\Debug\netcoreapp3.1\07312020_Task List.dll
+C:\Users\Stephen Barr (Work)\source\repos\07312020_Task List\bin\Debug\netcoreapp3.1\07312020_Task List.pdb
+C:\Users\Stephen Barr (Work)\source\repos\07312020_Task List\obj\Debug\netcoreapp3.1\07312020_Task List.csprojAssemblyReference.cache
+C:\Users\Stephen Barr (Work)\source\repos\07312020_Task List\obj\Debug\netcoreapp3.1\07312020_Task List.AssemblyInfoInputs.cache
+C:\Users\Stephen Barr (Work)\source\repos\07312020_Task List\obj\Debug\netcoreapp3.1\07312020_Task List.AssemblyInfo.cs
+C:\Users\Stephen Barr (Work)\source\repos\07312020_Task List\obj\Debug\netcoreapp3.1\07312020_Task List.csproj.CoreCompileInputs.cache
+C:\Users\Stephen Barr (Work)\source\repos\07312020_Task List\obj\Debug\netcoreapp3.1\07312020_Task List.dll
+C:\Users\Stephen Barr (Work)\source\repos\07312020_Task List\obj\Debug\netcoreapp3.1\07312020_Task List.pdb
+C:\Users\Stephen Barr (Work)\source\repos\07312020_Task List\obj\Debug\netcoreapp3.1\07312020_Task List.genruntimeconfig.cache
