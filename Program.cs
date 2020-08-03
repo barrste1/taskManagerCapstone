@@ -146,7 +146,7 @@ namespace _07312020_Task_List
                             Console.Clear();
                             Console.Beep(300, 100); Console.Beep(700, 100); Console.Beep(300, 100);
                             names = DisplayNames(taskList);
-                            searchName = ValidateName(GetInput("Who would you like to search for? Please input a name from those listed above."), names);
+                            searchName = ValidateSearchedName(GetInput("Who would you like to search for? Please input a name from those listed above."), names);
                             Console.Clear();
                             for (int i = 0; i < taskList.Count; i++)
                             {
@@ -275,7 +275,7 @@ namespace _07312020_Task_List
                     taskList.Add(new Task());
 
 
-                    taskList[taskList.Count - 1].Name = GetInput("Person Responsible for task:");
+                    taskList[taskList.Count - 1].Name = ValidateName(GetInput("Person Responsible for task:"));
                     taskList[taskList.Count - 1].Description = ValidateTaskString(GetInput("Task to be performed: "));
                     taskList[taskList.Count - 1].DueDate = ValidateDateTime(GetInput("When is the due date (mm/dd/yyyy): "));
 
@@ -530,6 +530,17 @@ namespace _07312020_Task_List
             }
             return task;
         }
+        public static string ValidateName(string name)
+        {
+            //validates name to fit formatting
+            Regex regex = new Regex("^[A-Za-z]{1,15}$");
+            while (!regex.IsMatch(name))
+            {
+                name = GetInput("Please input a name (first name only, 15 characters please)");
+            }
+
+            return name;
+        }
         public static int ValidateIndex(string userInput, List<Task> taskList)
         {
             int inputInt;
@@ -573,7 +584,7 @@ namespace _07312020_Task_List
             }
             return inputInt;
         }
-        public static string ValidateName(string inputName, List<string> names)
+        public static string ValidateSearchedName(string inputName, List<string> names)
         {
             for (int i = 0; i < names.Count; i++)
             {
